@@ -1,0 +1,164 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	background-color: #fff4e6;
+}
+
+h1 {
+	margin: 150px auto 0 auto;
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 4rem; /* 64px */
+	color: #d9480f;
+	line-height: 2;
+}
+
+h2 {
+	font-size: 2.5rem;
+	color: #d9480f;
+	font-weight: normal;
+}
+
+h3 {
+	color: #d9480f;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.top-container {
+	position: relative;
+	padding-top: 20px;
+}
+
+.top-cloud {
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 300px;
+	bottom: 300px;
+}
+
+.flowers {
+	margin-top: 10rem;
+}
+
+.flowers > img {
+	width: 9rem;
+}
+
+.profile {
+	width: 30%;
+	margin: 0 auto;
+}
+
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-color: #ffc078;
+	border-width: 5px;
+	width: 5%;
+	margin: 80px auto;
+}
+
+.profile-photo {
+	width: 300px;
+	margin: 6rem auto 3rem auto;
+}
+
+.intro {
+	line-height: 2;
+}
+
+.skills {
+	margin-top: 80px;
+}
+
+.skill-row {
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.skill-row--code {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+	border-radius: 50%;
+}
+
+.skill-row--team {
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+	border-radius: 50%;
+}
+
+.contact-me {
+	margin-bottom: 80px;
+}
+
+.contact-msg {
+	width: 40%;
+	margin: 40px auto 60px auto;
+	line-height: 2;
+}
+
+.btn {
+	background-color: #d9480f;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	padding: 7px;
+	border-radius: 8px;
+}
+
+.btn:hover {
+	background-color: #f76707;
+}
+
+.bottom-container {
+	padding: 1%;
+	background-color: #e8590c;
+}
+
+.bottom-container > p {
+	margin-bottom: 0;
+	color: #ffe8cc;
+	font-weight: 500;
+}
+
+.footer-link {
+	text-decoration: none;
+	color: #ffe8cc;
+}
+
+.footer-link:hover {
+	color: white;
+}
+
+.linkedin-link {
+	margin-right: 30px;
+}
+
+
+
+
+/* Responsive */
+
+@media(max-width: 850px) {
+	.flowers > img {
+		width: 7rem;
+	}
+
+	.top-cloud {
+		visibility: hidden;
+	}
+	.bottom-cloud {
+		visibility: hidden;
+	}
+}
