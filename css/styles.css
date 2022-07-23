@@ -115,6 +115,7 @@ hr {
 	text-decoration: none;
 	padding: 7px;
 	border-radius: 8px;
+	transition: background-color 0.5s;
 }
 
 .btn:hover {
